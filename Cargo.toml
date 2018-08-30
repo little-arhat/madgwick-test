@@ -1,0 +1,11 @@
+[package]
+name = "madgwick-test"
+version = "0.1.0"
+authors = ["Roma Sokolov <sokolov.r.v@gmail.com>"]
+
+[dependencies]
+csv = "1.0.0"
+
+[dependencies.madgwick]
+git = "https://github.com/copterust/madgwick"
+rev = "13771fdb2cbd70557d43176914b070dd5186a445"
